@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Rock Paper Scissors Game</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href='rps.css' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="container">
+  <h1><a href="https://cyclokitty.github.io" target="_blank">Cyclokitty's</a> Rock Paper Scissors Game!</h1>
+  <!-- Rock Paper Scissors buttons-->
+  <div class="row playButtons center-block">
+    <div class="col-sm-12 col-md-12 col-lg-12 ">
+      <button class="btn btn-default" id="rock"></button>
+      <button class="btn btn-default" id="paper"></button>
+      <button class="btn btn-default" id="scissors"></button>
+    </div>
+  </div>
+
+  <!--Score Board -->
+  <div class="row scores">
+    <div class="col-sm-6 col-md-6 col-lg-6" id="gameResults">Player: <span id="playerScore">0</span></div>
+    <div class="col-sm-6 col-md-6 col-lg-6" id="gameResults">Computer: <span id="compScore">0</span></div>
+  </div>
+
+  <!--Player and Computer Choices shown -->
+  <div class="row whoWon">
+      <div class="col-sm-12" id="playerResults"></div>
+  </div>
+  <div class="row whoWon">
+    <div class="col-sm-12" id="compResults"></div>
+  </div>
+
+  <!--Winner declared or tie declared -->
+  <div class="row whoWon">
+      <div class="col-sm-12" id="game"></div>
+  </div>
+
+  <!--Reset Button -->
+  <div class="row center-block">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <button class="btn btn-warning" id="reset">RESET GAME</button>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script src='rps.js'></script>
+  </body>
+</html>

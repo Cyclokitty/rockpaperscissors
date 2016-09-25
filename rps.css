@@ -1,0 +1,89 @@
+body {
+  background-color: #125345;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.playButtons {
+  margin: 25px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.scores {
+  font-size: 3em;
+}
+
+#playerResults {
+  text-align: center;
+}
+
+#compResults {
+  text-align: center;
+}
+
+#game {
+  text-align: center;
+}
+
+#gameResults {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.whoWon {
+  font-size: 1.5em;
+}
+
+#rock {
+   background-image: url("http://megaicons.net/static/img/icons_sizes/8/178/128/rock-paper-scissors-rock-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  outline: none;
+}
+
+#paper {
+  background-image: url("http://megaicons.net/static/img/icons_sizes/8/178/128/rock-paper-scissors-paper-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  outline: none;
+}
+
+#scissors {
+  background-image: url("http://megaicons.net/static/img/icons_sizes/8/178/128/rock-paper-scissors-scissors-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  outline: none;
+}
+
+a {
+  color: orange;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: orange;
+  text-decoration: none !important;
+}
